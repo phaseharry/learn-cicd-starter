@@ -24,4 +24,10 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 
 phaseharry's version of Boot.dev's Notely app
 
+Run:
+```
+gcloud builds submit --tag us-central1-docker.pkg.dev/notely-505501/notely-ar-repo/notely:latest .
+```
+to build docker image and publish to gcp artifact registry
+
 ![ci test](https://github.com/phaseharry/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
